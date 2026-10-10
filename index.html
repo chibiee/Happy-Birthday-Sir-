@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy birthday sir enoch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<script>document.documentElement.classList.add("js");</script>
+ 
+<div class="scene" aria-hidden="true">
+  <div class="stars"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="moon"></div>
+  <div class="hill far"></div>
+  <div class="hill near"></div>
+  <div class="lights"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="ties"></div>
+  <div class="rail"></div>
+  <div class="train">
+    <div class="car"></div><div class="car"></div><div class="car"></div>
+    <div class="car engine"><i></i><i></i><i></i></div>
+  </div>
+</div>
+ 
+
+<audio id="song" src="500miles.mp3" preload="auto"></audio>
+ 
+<button type="button" class="music" id="music" hidden>Music: On</button>
+ 
+<div class="timing" id="timing" hidden>
+  <b id="clock">0.0 s</b>
+  <button type="button" class="mark" id="mark">Mark</button>
+  <span class="marks" id="marks">Click Mark at each beat. Enter the numbers in the data-at attribute.</span>
+</div>
+ 
+<main class="wrap">
+ 
+  <section class="intro" id="intro">
+    <p class="to">For sir Enoch!</p>
+    <h1>Digital message <span>for you sir!</span></h1>
+    <button type="button" class="btn" id="start">Open</button>
+  </section>
+ 
+  <section class="stage" id="stage">
+ 
+    <!-- ============================================================
+         MESSAGE SECTION
+         ============================================================ -->
+    <div class="msg" data-at="3"><p class="t">Sir Enoch,</p></div>
+    <div class="msg" data-at="8"><p class="t">Happy birthday po!</p></div>
+    <div class="msg" data-at="13"><p class="t">Gusto ko lang po talagang mag thankyou sa inyo.</p></div>
+    <div class="msg" data-at="19"><p class="t">Para po sa amin, kayo ang pinaka-masipag na teacher na nakilala namin.</p></div>
+    <div class="msg" data-at="27"><p class="t">Lagi ninyong ginagawa ang best ninyo para maituro sa amin lahat ng kailangan naming matutunan.</p></div>
+    <div class="msg" data-at="36"><p class="t">Ipinangako po ninyo na matututo kaming mag-code bago kami tumuntong ng college, at ramdam namin kung gaano ninyo pinaghirapan iyon.</p></div>
+    <div class="msg" data-at="46"><p class="t">Hindi po ninyo kami sinukuan, kahit minsan mahirap at ang dami naming tanong.</p></div>
+    <div class="msg" data-at="54"><p class="t">Dahil po sa inyo, mas naniwala kaming kaya namin ito.</p></div>
+    <div class="msg" data-at="61"><p class="t">Sana ngayong birthday ninyo, kayo naman ang alagaan, at sana masaya po kayo.</p></div>
+    <div class="msg" data-at="69"><p class="t">Thank you po talaga, Sir. Hindi namin makakalimutan lahat ng itinuro ninyo.</p></div>
+    
+    
+    
+    <!-- ======================= 
+     PHOTO SECTION 
+     ======================= -->
+    <div class="msg final" data-at="79">
+      <h2 class="t">Again. Happy Birthday, Sir Enoch!</h2>
+      <figure class="photo" id="photo">
+        <img src="enoch.webp" alt="Si Sir Enoch kasama kami noong Tagisan ng Talino">
+        <div class="ph"></div>
+        <figcaption>ICT 402</figcaption>
+      </figure>
+      <p class="sign">Your Students<span class="cursor" aria-hidden="true">_</span></p>
+      <button type="button" class="again" id="again">Again</button>
+    </div>
+ 
+  </section>
+ 
+</main>
+ 
+<script src="script.js"></script>
+</body>
+</html>
